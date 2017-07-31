@@ -1,0 +1,6 @@
+main grey color: #16181C
+purple'ish:      #3F2CAA
+blue'ish:        #01B5AC
+orange:          #FF5300
+company card bg: #2E3038
+indicator color: #494B4F

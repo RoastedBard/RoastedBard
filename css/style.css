@@ -1,0 +1,545 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+  background: #16181C;
+}
+
+.navbar{
+  height: 75px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 0;
+  text-transform: uppercase;
+  background: #16181C;
+  margin: 0;
+  background: rgba(22, 24, 28, 0.8);
+}
+
+.animated-element{
+    visibility: hidden;
+    -moz-animation-duration: 1s;
+}
+
+.navbar-nav li a {
+   letter-spacing: 1px;
+   color: #fff !important;
+}
+
+.logo{
+  background: url('https://yalantis.com/assets/v2/content/logo-4b99d42ae7158612f49a38ebace28cc1.svg') no-repeat;
+  width: 114px;
+  height: 25px;
+  display: block;
+  background-size: 100% auto;
+}
+
+.badge{
+    padding-top: 8px;
+    height: 30px;
+    border-radius: 40px;
+    min-width: 50px;
+    font-size: 14px;
+    font-weight: normal;
+    background: rgba(255,255,255,0.11);
+}
+
+h1{
+  font-size: 66px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+p{
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.talent{
+  padding: 0 0 89px 0;
+}
+
+.talents-text{
+  padding: 0 0 150px 0;
+}
+
+.works-text{
+  padding: 0 40px 59px 40px;
+  max-width: 790px;
+}
+
+.we-worked-title{
+  padding: 0 0 154px 0;
+}
+
+.tags{
+  margin-bottom: 30px;
+}
+.product{
+  height: 1000px;
+}
+
+.product .row{
+  padding: 10% 3% 10% 3%;
+}
+
+.product-description{
+  padding: 5% 0 5% 0;
+}
+
+.product-description p{
+  margin-bottom: 50px;
+  opacity: 1;
+}
+.product-description h2{
+  margin: 0;
+  padding: 0 0 30px 0;
+  font-size: 27px;
+  font-weight: normal;
+  line-height: 40px;
+  opacity: 0.6;
+}
+.jumbotron h1{
+  margin-top: 0;
+}
+
+.logo-img{
+  width: 100%;
+}
+
+.jumbotron{
+  background: transparent;
+  background-image: url('../img/showcase-bkg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  padding: 0 20% 0 20%;
+  margin: 0;
+
+}
+.jumbotron p{
+  font-size: 2em;
+  opacity: 1;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+/* =============================================== */
+/* ================    BUTTONS    ================ */
+/* =============================================== */
+@keyframes addDotsIn {
+  0% {
+    content: " →";
+  }
+  25% {
+    content: ".→";
+  }
+  50% {
+    content: "..→";
+  }
+  75% {
+    content: "...→";
+  }
+  100% {
+    content: "... →";
+  }
+}
+
+@keyframes addDotsOut {
+  0% {
+    content: "... →";
+  }
+  25% {
+    content: "...→";
+  }
+  50% {
+    content: "..→";
+  }
+  75% {
+    content: ".→";
+  }
+  100% {
+    content: " →";
+  }
+}
+
+.btn{
+  text-align: center;
+  padding: 13px 0 14px 0;
+  border-radius: 40px;
+  min-width: 250px;
+  min-height: 54px;
+  transition: color 0.5s ease, background 0.5s ease, border-color 0.5s ease;
+}
+
+.btn.arrow{
+  text-align: left;
+  padding: 13px 0px 14px 35px;
+}
+
+.btn.arrow::after{
+  animation: addDotsOut 0.1s ease forwards;
+}
+.btn.arrow:hover::after{
+  animation: addDotsIn 0.1s ease forwards;
+}
+
+.btn-white{
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-white:hover{
+  color: #000;
+  background-color: #fff;
+}
+
+.btn-orange{
+  border: 1px solid #FF5300;
+  color: #FF5300;
+}
+
+.btn-orange:hover{
+  background: #FF5300;
+  color: #fff;
+}
+
+.btn-orange-full{
+  background: #FF5300;
+  color: #fff;
+}
+
+.btn-orange-full:hover{
+  border-color: #fff;
+  background: #fff;
+  color: #FF5300;
+}
+/* ================  END BUTTONS  ================ */
+
+.company-card{
+  height: 400px;
+  min-height: 340px;
+  padding: 90px 50px;
+  background: #2E3038;
+}
+.company-card .company-logo{
+  margin: 0;
+  padding: 0 0 40px 0;
+}
+
+.company-card .company-card-text{
+  margin: 0;
+  padding: 0;
+}
+
+.company-card .company-card-text h3{
+  margin: 0;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.company-card .company-card-text p{
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+
+.short-hr{
+  border-color: #FF5300;
+  width:100px;
+}
+
+.socials{
+  width: 100%;
+}
+
+#main-footer{
+  padding: 42px 0 29px 0;
+}
+
+#main-footer .logo{
+  margin: 0 0 24px 0;
+}
+
+#main-footer p{
+  font-size: 16px;
+}
+
+.footer-logo-info{
+  text-align: left;
+}
+
+#footer-bottom p{
+  font-size: 14px;
+  color: white;
+  opacity: 0.2;
+
+}
+.socials .btn{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.fa{
+  color: #fff;
+  font-size: 2em;
+}
+.socials ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials ul li{
+  display: inline;
+}
+
+.bottom-nav{
+  font-size: 18px;
+}
+
+.bottom-nav li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 0px;
+	background: transparent;
+	transition: width .3s ease, background-color .3s ease;
+}
+.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #FF5300;
+}
+
+#quotes{
+  padding: 306px 0 89px 0;
+}
+
+#developed-products{
+  transition: background 0.5s ease;
+}
+
+#info-better{
+    height: 379px;
+}
+
+#info-better .info-better-text{
+  max-width: 790px;
+}
+
+#info-better .info-better-text p{
+  padding: 0 40px 45px 40px;
+}
+#info-better h1, #check-out-works h1{
+  font-size: 48px;
+}
+
+#talents h1{
+  font-size: 77px;
+}
+
+#talents .talent h1{
+  font-size: 96px;
+}
+
+#talents .talent p{
+    font-size: 36px;
+}
+
+#talents{
+  width: 70%;
+}
+
+#brilliant-move{
+
+}
+#homesway{
+
+}
+
+#talos{
+
+}
+
+#check-out-works{
+  padding: 65px 0 227px 0;
+}
+
+#homesway, #brilliant-move, #talos{
+  height: 1000px;
+}
+
+#we-worked-together{
+  padding: 91px 10px 97px 10px;
+}
+
+#we-worked-together .btn-orange{
+  margin-top: 130px;
+  margin-bottom: 150px;
+}
+
+/* =============================================== */
+/* ================ MEDIA QUERIES ================ */
+/* =============================================== */
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .animated-element{
+    visibility: visible;
+  }
+
+  .company-card{
+    margin: 0px 10px 20px 10px;
+    padding: 45px 10px 40px 10px;
+  }
+
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .animated-element{
+    visibility: visible;
+  }
+
+  h1, #check-out-works h1{
+    font-size: 32px;
+  }
+
+  #talents h1{
+    font-size: 45px;
+  }
+
+  #talents .talent h1{
+    font-size: 60px;
+  }
+  p{
+    font-size: 16px;
+  }
+
+  .jumbotron{
+    padding: 0;
+  }
+
+  .jumbotron p{
+    font-size: 20px;
+  }
+  .product-description{
+    padding-top: 0;
+    margin-bottom: 50px;
+  }
+  .product-description h1, .jumbotron h1{
+    font-size: 40px;
+  }
+  .product-description h2{
+    font-size: 24px;
+  }
+  .product-description p{
+    text-align: justify;
+  }
+
+  .we-worked-title{
+    padding-bottom: 46px;
+  }
+
+  .company-card{
+    margin: 0px 10px 20px 10px;
+    padding: 45px 10px 40px 10px;
+  }
+
+ .carousel-caption p i{
+    font-size: 16px !important;
+  }
+
+  .socials ul{
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  #main-footer{
+    padding: 100px 0 25px 0;
+  }
+
+  #main-footer .logo{
+    margin: 0 auto 24px auto;
+  }
+
+  #bs-example-navbar-collapse-1{
+    background: #16181C;
+  }
+
+  .footer-logo-info{
+    text-align: center;
+  }
+
+  .bottom-nav{
+    padding: 20px 0 20px 0;
+  }
+
+  .bottom-nav li{
+    margin-bottom: 20px;
+    width: 50%;
+  }
+
+  .animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+}
+
+}

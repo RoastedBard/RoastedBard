@@ -1,0 +1,80 @@
+  <!-- TALENT 1 -->
+  <div class="row clearfix">
+
+    <div class="talent text-center pull-left">
+      <h1 class="animated-element talent-header" scroll-up-animation="animated fadeInDown">Build</h1>
+      <p class="animated-element talent-text" scroll-up-animation="animated fadeInDown">products</p>
+    </div>
+
+  </div>
+
+
+  <!-- TALENT 2 -->
+  <div class="row clearfix">
+
+    <div class="talent text-center pull-right">
+      <h1 class="animated-element talent-header" scroll-up-animation="animated fadeInDown">Design</h1>
+      <p class="animated-element talent-text" scroll-up-animation="animated fadeInDown">experiences</p>
+    </div>
+
+  </div>
+
+  <!-- TALENT 3 -->
+  <div class="row clearfix">
+
+    <div class="talent text-center pull-left">
+      <h1 class="animated-element talent-header" scroll-up-animation="animated fadeInDown">Grow</h1>
+      <p class="animated-element talent-text" scroll-up-animation="animated fadeInDown">audiences</p>
+    </div>
+
+  </div>
+
+  <!-- TALENT 4 -->
+  <div class="row clearfix">
+
+    <div class="talent text-center pull-right">
+      <h1 class="animated-element talent-header" scroll-up-animation="animated fadeInDown">Retain</h1>
+      <p class="animated-element talent-text" scroll-up-animation="animated fadeInDown">users</p>
+    </div>
+
+  </div>
+
+  <!-- TALENT 5 -->
+  <div class="row clearfix">
+
+    <div class="talent text-center pull-left">
+      <h1 class="animated-element talent-header" scroll-up-animation="animated fadeInDown">Improve</h1>
+      <p class="animated-element talent-text" scroll-up-animation="animated fadeInDown">engagement</p>
+    </div>
+
+  </div>
+
+  <!-- TALENT 6 -->
+  <div class="row clearfix">
+
+    <div class="talent text-center pull-right">
+      <h1 class="animated-element talent-header" scroll-up-animation="animated fadeInDown">Convert</h1>
+      <p class="animated-element talent-text" scroll-up-animation="animated fadeInDown">users to customers</p>
+    </div>
+
+  </div>
+
+  <!-- TALENT 7 -->
+  <div class="row clearfix">
+
+    <div class="talent text-center pull-left">
+      <h1 class="animated-element talent-header" scroll-up-animation="animated fadeInDown">Fix</h1>
+      <p class="animated-element talent-text" scroll-up-animation="animated fadeInDown">problems in code</p>
+    </div>
+
+  </div>
+
+  <!-- TALENT 8 -->
+  <div class="row clearfix">
+
+    <div class="talent text-center pull-right">
+      <h1 class="animated-element talent-header" scroll-up-animation="animated fadeInDown">Iterate</h1>
+      <p class="animated-element talent-text" scroll-up-animation="animated fadeInDown">to build a succesful product</p>
+    </div>
+
+  </div>
